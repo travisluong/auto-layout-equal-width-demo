@@ -5,6 +5,36 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA3FE46A1A6DB72900499875"
+               BuildableName = "EqualWidthAutoLayout.app"
+               BlueprintName = "EqualWidthAutoLayout"
+               ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA3FE4831A6DB72900499875"
+               BuildableName = "EqualWidthAutoLayoutTests.xctest"
+               BlueprintName = "EqualWidthAutoLayoutTests"
+               ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -12,7 +42,26 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CA3FE4831A6DB72900499875"
+               BuildableName = "EqualWidthAutoLayoutTests.xctest"
+               BlueprintName = "EqualWidthAutoLayoutTests"
+               ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CA3FE46A1A6DB72900499875"
+            BuildableName = "EqualWidthAutoLayout.app"
+            BlueprintName = "EqualWidthAutoLayout"
+            ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -23,6 +72,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CA3FE46A1A6DB72900499875"
+            BuildableName = "EqualWidthAutoLayout.app"
+            BlueprintName = "EqualWidthAutoLayout"
+            ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -32,6 +90,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CA3FE46A1A6DB72900499875"
+            BuildableName = "EqualWidthAutoLayout.app"
+            BlueprintName = "EqualWidthAutoLayout"
+            ReferencedContainer = "container:EqualWidthAutoLayout.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
